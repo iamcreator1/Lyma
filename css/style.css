@@ -67,7 +67,7 @@ header .container {
 
 
 .flex-list-right li:nth-child(4) a {
-  
+
   padding: 6px 18px;
   background: #000000;
   border: 1px solid #000000;
@@ -82,3 +82,61 @@ header .container {
   color: #FFFFFF;
   text-align: center;
 }
+
+/* section-one */
+
+.main-banner {
+  background-image: url(../images/main_banner.png);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+}
+
+.main-banner h1 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 57px;
+  line-height: 67px;
+  text-align: center;
+  letter-spacing: 0.81px;
+  color: #FFFFFF;
+  margin-bottom: 31px;
+}
+
+.main-banner p {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.44px;
+  color: #FFFFFF;
+  margin-bottom: 60px;
+}
+
+.main-banner .container-main-banner a {
+  display: inline-block;
+  box-sizing: border-box;
+  min-width: 215px;
+  border: 1px solid #FFFFFF;
+  border-radius: 0px;
+  font-family: 'Montserrat',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 8px 48px;
+}
+
+.container-main-banner {
+  max-width: 756px;
+  margin: auto;
+  text-align: center;
+}
+
