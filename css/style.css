@@ -16,13 +16,69 @@ header {
 header .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.flex-list {
+.flex-list-left {
   display: flex;
   list-style: none;
+  align-items: center;
 }
 
-.flex-list a {
+.flex-list-left a {
   text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1.67px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.flex-list-left li {
+  margin-right: 32px;
+}
+
+.flex-list-left li :nth-child(5) {
+  margin-right: inherit;
+}
+
+.flex-list-right {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.flex-list-right a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1.67px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.flex-list-right li {
+  margin-left: 32px;
+}
+
+
+.flex-list-right li:nth-child(4) a {
+  
+  padding: 6px 18px;
+  background: #000000;
+  border: 1px solid #000000;
+  border-radius: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: 1.67px;
+  color: #FFFFFF;
+  text-align: center;
 }
